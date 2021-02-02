@@ -1,0 +1,57 @@
+/* 1/28/2021 Troll Game Project */
+
+/*
+font-family: 'Coda Caption', sans-serif;
+font-family: 'Eater', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Yusei Magic', sans-serif;
+*/
+
+body {
+	background-image: url("forest.jpg");
+	background-size: cover;
+	background-repeat: no repeat;
+}
+
+h1 {
+	font-family: 'Eater', cursive;
+	text-align: center;
+	font-size: 4em;
+	color: cornsilk;
+	text-shadow: red 4px 2px 2px, orange 2px 1px 1px;
+}
+
+div#button {
+	background-color: red;
+	width: 340px;
+	font-family: 'Yusei Magic', cursive;
+	text-align: center;
+	font-size: 2em;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 25px;
+	padding: 15px 0px;
+	transition: all 1.5s;
+}
+
+div#button:hover {
+	background-color: yellow;
+	font-size: 3em;
+	cursor: pointer;
+}
+
+h2#result {
+	font-family: 'Coda Caption', cursive;
+	text-align: center;
+	font-size: 3em;
+	color: greenyellow;
+	text-shadow: white 2px 2px 2px, black 3px 3px 1px;
+}
+
+h2#death {
+	font-family: 'Permanent Marker', cursive;
+	text-align: center;
+	font-size: 3em;
+	color: redorange;
+	text-shadow: black 2px 2px 2px;
+}
